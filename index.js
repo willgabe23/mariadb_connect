@@ -28,5 +28,5 @@ app.post("/add-productos", async (req, res) => {
 
 // Creamos la funcion para correr el servidor
 app.listen(3000, () =>{
-    console.log("Prueba de Servidor en puerto...", 3000);
+    console.log("Servidor en puerto...", 3000);
 });
