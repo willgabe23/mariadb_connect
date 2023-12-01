@@ -1,5 +1,5 @@
 lenguaje: node_js
 node_js: 
-  - "stable"
+  - "-17"
 script:
   -nmp run dev
