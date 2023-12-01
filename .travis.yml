@@ -1,2 +1,5 @@
 lenguaje: node_js
-node_js: "18.18.2"
+node_js: 
+  - 'stable'
+script:
+  -nmp run dev
