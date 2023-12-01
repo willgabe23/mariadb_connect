@@ -1,5 +1,9 @@
-lenguaje: node_js
-node_js: 
-  - "-17"
+lenguage: bash
+
+sudo: required
+
+services:
+-docker
+
 script:
-  -nmp run dev
+-echo "Hola Mundo desde Travis!"
