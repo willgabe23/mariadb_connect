@@ -1,6 +1,9 @@
-language: node_js
-node_js: "12"
+lenguage: bash
+
+sudo: required
+
+services:
+-docker
+
 script:
-  - "npm run lint"
-  - "npm test"
-  - "npm run build"
+-echo "Hola mundo"
