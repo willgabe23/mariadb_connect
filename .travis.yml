@@ -1,9 +1,6 @@
-lenguage: bash
-
-sudo: required
-
-services:
--docker
-
-script:
--echo "Hola mundo"
+lenguaje: node_js
+node_js: 
+  - "stable"
+cache:
+directories:
+  - "node_modules"
